@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './styles.scss';
 import routeNewsList from './routes';
 import PageTitle from 'components/PageTitle';
 import News from 'components/News';
