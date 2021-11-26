@@ -1,5 +1,6 @@
 const prepareDate = value => {
-  const newDate = new Date(value);
+  const newDate = new Date(value.replace(' ', 'T') + 'Z');
+  console.log(value.replace(' ', 'T') + 'Z');
 
   return {
     day: newDate.getDate(),
