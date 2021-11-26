@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/artNews/static/css/main.17418341.chunk.css",
-    "main.js": "/artNews/static/js/main.1721f1ee.chunk.js",
-    "main.js.map": "/artNews/static/js/main.1721f1ee.chunk.js.map",
+    "main.css": "/artNews/static/css/main.f83cfeee.chunk.css",
+    "main.js": "/artNews/static/js/main.a5995a22.chunk.js",
+    "main.js.map": "/artNews/static/js/main.a5995a22.chunk.js.map",
     "runtime-main.js": "/artNews/static/js/runtime-main.660080dc.js",
     "runtime-main.js.map": "/artNews/static/js/runtime-main.660080dc.js.map",
     "static/js/2.ab670bd4.chunk.js": "/artNews/static/js/2.ab670bd4.chunk.js",
     "static/js/2.ab670bd4.chunk.js.map": "/artNews/static/js/2.ab670bd4.chunk.js.map",
     "index.html": "/artNews/index.html",
-    "static/css/main.17418341.chunk.css.map": "/artNews/static/css/main.17418341.chunk.css.map",
+    "static/css/main.f83cfeee.chunk.css.map": "/artNews/static/css/main.f83cfeee.chunk.css.map",
     "static/js/2.ab670bd4.chunk.js.LICENSE.txt": "/artNews/static/js/2.ab670bd4.chunk.js.LICENSE.txt",
     "static/media/minePic.94b7bb93.jpg": "/artNews/static/media/minePic.94b7bb93.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.660080dc.js",
     "static/js/2.ab670bd4.chunk.js",
-    "static/css/main.17418341.chunk.css",
-    "static/js/main.1721f1ee.chunk.js"
+    "static/css/main.f83cfeee.chunk.css",
+    "static/js/main.a5995a22.chunk.js"
   ]
 }
