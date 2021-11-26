@@ -1,9 +1,4 @@
 .contactsPage {
-  display: flex;
-  align-items: center;
-  margin-bottom: 70px;
-  justify-content: space-around;
-
   .tel,
   .email {
     color: #097c8a;
@@ -47,5 +42,13 @@
     border-radius: 50%;
     max-width: 100%;
     height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .contactsPage .tech {
+    margin-bottom: 50px;
+  }
+  .image {
+    text-align: center;
   }
 }
