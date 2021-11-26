@@ -1,0 +1,38 @@
+.footer {
+  border-top: 2px solid #ccc;
+  padding: 50px 0;
+
+  p {
+    font-size: 25px;
+    font-weight: 700;
+    &.small,
+    &.test {
+      font-size: 12px;
+      font-weight: 400;
+    }
+    &.test {
+      text-align: center;
+    }
+  }
+
+  .rigthBlock {
+    text-align: right;
+    a {
+      font-size: 25px;
+      font-weight: 700;
+      display: block;
+      margin-top: 0.7rem;
+    }
+  }
+  .leftBlock p:first-of-type {
+    letter-spacing: 0.16rem;
+    color: #097c8a;
+  }
+}
+
+@media (max-width: 500px) {
+  .leftBlock,
+  .test {
+    margin-bottom: 35px;
+  }
+}
