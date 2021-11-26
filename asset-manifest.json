@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/artNews/static/css/main.f83cfeee.chunk.css",
-    "main.js": "/artNews/static/js/main.a5995a22.chunk.js",
-    "main.js.map": "/artNews/static/js/main.a5995a22.chunk.js.map",
+    "main.js": "/artNews/static/js/main.b884df84.chunk.js",
+    "main.js.map": "/artNews/static/js/main.b884df84.chunk.js.map",
     "runtime-main.js": "/artNews/static/js/runtime-main.660080dc.js",
     "runtime-main.js.map": "/artNews/static/js/runtime-main.660080dc.js.map",
     "static/js/2.ab670bd4.chunk.js": "/artNews/static/js/2.ab670bd4.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.660080dc.js",
     "static/js/2.ab670bd4.chunk.js",
     "static/css/main.f83cfeee.chunk.css",
-    "static/js/main.a5995a22.chunk.js"
+    "static/js/main.b884df84.chunk.js"
   ]
 }
