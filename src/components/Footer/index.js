@@ -8,7 +8,9 @@ const Footer = () => {
       <div className='row align-items-end'>
         <div className='col-sm-5'>
           <div className='leftBlock'>
-            <p>Art News</p>
+            <p>
+              <span>Art</span> News
+            </p>
             <p className='small'>Single Page Application</p>
           </div>
         </div>

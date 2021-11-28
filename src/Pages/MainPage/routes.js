@@ -1,3 +1,3 @@
-const routeMain = () => '/home';
+const routeMain = () => '/artNews';
 
 export default routeMain;
