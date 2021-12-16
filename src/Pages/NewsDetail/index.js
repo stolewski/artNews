@@ -5,18 +5,22 @@ import routeNewsDetail from './routes';
 import getNews from 'services/getNews';
 import DateView from 'components/DateView';
 import Loader from 'utils/Loader';
+import { useSelector } from 'react-redux';
+import { selectList } from 'store/news/selectors';
 
 const NewsDetail = () => {
   const { id } = useParams();
   const [news, setNews] = useState(null);
   const [loading, setLoading] = useState(true);
+  const newsList = useSelector(selectList);
 
   useEffect(() => {
     getNews().then(response => {
-      setNews(response.data.articles.find(el => el._id === id));
+      const currentNews = newsList.find(item => item._id === id);
+      setNews(currentNews);
       setLoading(false);
     });
-  }, [id]);
+  }, [id, newsList]);
   return (
     <section className='newsDetailPage'>
       {loading && <Loader />}
